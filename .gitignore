@@ -11,3 +11,6 @@ _templates
 **/source
 .idea/
 .vscode/
+
+# Jekyll build files
+_site/

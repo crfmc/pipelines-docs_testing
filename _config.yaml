@@ -1,0 +1,6 @@
+title: Pipeline Docs
+description: Pipeline documentation site
+remote-theme: pages-themes/primer@v0.2.0
+markdown: kramdown
+plugins:
+  - jekyll-remote-theme
