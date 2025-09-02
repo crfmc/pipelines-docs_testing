@@ -4,24 +4,47 @@
 body {
   font-family: "Inter", Arial, sans-serif;
   margin: 2em;
-  background: #f9f9f9;
-  color: #222;
+  background: #ffffff;
+  color: #343741;
 
-  .markdown-body {
-    font-family: "Inter", Arial, sans-serif;
+    .markdown-body {
+        font-family: "Inter", Arial, sans-serif;
+        color: #343741;
 
-    h1 {
-        /* background: url('/assets/img/patterns/polygon-bg-header.svg'), linear-gradient(303deg, rgb(229, 241, 254) 0.52%, #f7fdff 99.55%); */
-		background-size: cover;
-        padding: 20px 0px;
+        h1 {
+            /* background: url('/assets/img/patterns/polygon-bg-header.svg'), linear-gradient(303deg, rgb(229, 241, 254) 0.52%, #f7fdff 99.55%); */
+            background-size: cover;
+            padding: 20px 0px;
+            color: #343741;
+        }
+
+        /* Note: REMOVE WHEN NO LONGER USING DEFAULT MARKDOWN THEME */
+        /* Removes the top header added by default */
+        h1:first-of-type {
+            display: none;
+        }
+
+        table {
+            thead {
+                tr {
+                    background-color: #f1f9ff;
+                }
+            }
+            tbody {
+                tr {
+                    td {
+                        padding: 10px 15px;
+                    }
+                }
+                tr:nth-child(odd) {
+                    background-color: #f9f9f9;
+                }
+                tr:nth-child(even) {
+                    background-color: #ffffff;
+                }
+            }
+        }
     }
-
-    /* Note: REMOVE WHEN NO LONGER USING DEFAULT MARKDOWN THEME */
-    /* Removes the top header added by default */
-    h1:first-of-type {
-        display: none;
-    }
-  }
 }
 
 header {
