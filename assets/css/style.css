@@ -2,11 +2,16 @@
 @import url('normalize.css');
 
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Inter", Arial, sans-serif;
   margin: 2em;
   background: #f9f9f9;
   color: #222;
+
+  .markdown-body {
+    font-family: "Inter", Arial, sans-serif;
+  }
 }
+
 header {
   border-bottom: 1px solid #ccc;
   margin-bottom: 2em;
