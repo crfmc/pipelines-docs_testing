@@ -9,6 +9,18 @@ body {
 
   .markdown-body {
     font-family: "Inter", Arial, sans-serif;
+
+    h1 {
+        /* background: url('/assets/img/patterns/polygon-bg-header.svg'), linear-gradient(303deg, rgb(229, 241, 254) 0.52%, #f7fdff 99.55%); */
+		background-size: cover;
+        padding: 20px 0px;
+    }
+
+    /* Note: REMOVE WHEN NO LONGER USING DEFAULT MARKDOWN THEME */
+    /* Removes the top header added by default */
+    h1:first-of-type {
+        display: none;
+    }
   }
 }
 
